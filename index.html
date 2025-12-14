@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Marquês</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #0B0F14;
+      font-family: monospace;
+      color: #EAF6FF;
+      display: flex;
+      justify-content: center;
+    }
+
+    .window {
+      width: 100%;
+      max-width: 950px;
+      background: #003554;
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 0 30px rgba(0,168,255,0.25);
+    }
+
+    .header {
+      border-bottom: 2px solid #00A8FF;
+      padding-bottom: 12px;
+      margin-bottom: 18px;
+    }
+
+    .header h1 {
+      margin: 0;
+      color: #00A8FF;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    .bio {
+      margin-top: 6px;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    .layout {
+      display: flex;
+      gap: 18px;
+    }
+
+    .sidebar {
+      width: 220px;
+      background: #0077B6;
+      border-radius: 14px;
+      padding: 14px;
+    }
+
+    .sidebar h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      color: #0B0F14;
+      font-size: 16px;
+    }
+
+    .sidebar a {
+      display: block;
+      margin-bottom: 8px;
+      color: #0B0F14;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+
+    .status {
+      margin-top: 16px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(0,0,0,0.3);
+      font-size: 13px;
+    }
+
+    .main {
+      flex: 1;
+      background: #0B0F14;
+      border-radius: 14px;
+      padding: 16px;
+    }
+
+    .card {
+      background: #003554;
+      border-radius: 12px;
+      padding: 14px;
+      margin-bottom: 14px;
+    }
+
+    .card h4 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      color: #00A8FF;
+    }
+
+    .footer {
+      margin-top: 14px;
+      text-align: center;
+      font-size: 12px;
+      opacity: 0.6;
+    }
+
+    @media (max-width: 700px) {
+      .layout {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="window">
+
+    <!-- HEADER -->
+    <div class="header">
+      <h1>Marquês</h1>
+      <div class="bio">
+        C𝜊ಽì ᥒ𝘰ᥒ 𝑏ɑಽեa. Pꭎᥒե𝘰.
+      </div>
+    </div>
+
+    <!-- LAYOUT -->
+    <div class="layout">
+
+      <!-- SIDEBAR -->
+      <div class="sidebar">
+        <h3>navigation</h3>
+        <a href="#">home but make it dramatic</a>
+        <a href="#">¿is he gay or just european?</a>
+        <a href="#">slutty blondie</a>
+        <a href="#">do not perceive me</a>
+
+        <div class="status">
+          status: emotionally online<br>
+          currently: overthinking in blue
+        </div>
+      </div>
+
+      <!-- MAIN -->
+      <div class="main">
+
+        <div class="card">
+          <h4>welcome sweetie!!</h4>
+          <p>
+            this website exists because i said “what if i tried”.
+            no further questions at this time.
+          </p>
+        </div>
+
+        <div class="card">
+          <h4>about (unreliable)</h4>
+          <p>
+            learning how to code, pretending i know what i’m doing,
+            absolutely vibing anyway.
+          </p>
+        </div>
+
+        <div class="card">
+          <h4>important thoughts</h4>
+          <p>
+            ¿is he gay or just european?<br>
+            asking for a friend. the friend is me.
+          </p>
+        </div>
+
+        <div class="card">
+          <h4>notes app energy</h4>
+          <p>
+            slutty blondie is a mindset.<br>
+            minimal design, maximal emotions.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      Marquês · powered by vibes, caffeine & poor decisions
+    </div>
+
+  </div>
+
+</body>
+  </html>
